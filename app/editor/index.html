@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../node_modules/material-design-lite/material.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Electron-Cthulhu Generator</title>
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">Cthulhu Generator</span>
+            </div>
+            <!-- Tabs -->
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                <a id="tab_overview" href="#scroll-tab-1" class="mdl-layout__tab is-active">Overview</a>
+                <a id="tab_attributes" href="#scroll-tab-2" class="mdl-layout__tab">Attributes</a>
+                <a id="tab_skills" href="#scroll-tab-3" class="mdl-layout__tab">Skills</a>
+                <a id="tab_combat" href="#scroll-tab-4" class="mdl-layout__tab">Combat</a>
+            </div>
+        </header>
+        <main class="mdl-layout__content">
+            <!-- Tab 1 -->
+            <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+                <div class="page-content">
+                    <!-- Card -->
+                    <div class="mdl-grid">
+                        <div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--4dp">
+                            <div class="mdl-card__title">
+                                <div class="mdl-card__title-text">
+                                    <h4>General Information</h2>
+                                </div>
+                            </div>
+                            <div class="mdl-card--border mdl-card__supporting-text">
+                                <!-- Name -->
+                                <form>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input class="mdl-textfield__input" type="text" id="tf_name" required>
+                                        <label class="mdl-textfield__label" for="tf_name">Name</label>
+                                    </div>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input class="mdl-textfield__input" type="text" id="tf_job" required>
+                                        <label class="mdl-textfield__label" for="tf_job">Occupation</label>
+                                    </div>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_age">
+                                        <label class="mdl-textfield__label" for="tf_age">Age</label>
+                                        <span class="mdl-textfield__error">Input is not a number!</span>
+                                    </div>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input class="mdl-textfield__input" type="text" id="tf_origin">
+                                        <label class="mdl-textfield__label" for="tf_origin">Home</label>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <!-- Actions -->
+                                <button onclick="saveOverview()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit" name="action">
+                                    <i class="material-icons">save</i>Save & Next
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="mdl-layout__tab-panel" id="scroll-tab-2">
+                <div class="page-content">
+                    <!-- Card -->
+                    <div class="mdl-grid">
+                        <div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--4dp">
+                            <div class="mdl-card__title">
+                                <div class="mdl-card__title-text">
+                                    <h4>Physical & Mental Attributes</h2>
+                                </div>
+                            </div>
+                            <div class="mdl-card--border mdl-card__supporting-text">
+                                <!-- Name -->
+                                <form>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_str">
+                                        <label class="mdl-textfield__label" for="tf_str">Strength</label>
+                                        <span class="mdl-textfield__error">Input is not a number!</span>
+                                    </div>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_con">
+                                        <label class="mdl-textfield__label" for="tf_con">Constitution</label>
+                                        <span class="mdl-textfield__error">Input is not a number!</span>
+                                    </div>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_siz">
+                                        <label class="mdl-textfield__label" for="tf_siz">Size</label>
+                                        <span class="mdl-textfield__error">Input is not a number!</span>
+                                    </div>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_dex">
+                                        <label class="mdl-textfield__label" for="tf_dex">Dexterity</label>
+                                        <span class="mdl-textfield__error">Input is not a number!</span>
+                                    </div>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_app">
+                                        <label class="mdl-textfield__label" for="tf_app">Appearance</label>
+                                        <span class="mdl-textfield__error">Input is not a number!</span>
+                                    </div>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_int">
+                                        <label class="mdl-textfield__label" for="tf_int">Intelligence</label>
+                                        <span class="mdl-textfield__error">Input is not a number!</span>
+                                    </div>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_pow">
+                                        <label class="mdl-textfield__label" for="tf_pow">Power</label>
+                                        <span class="mdl-textfield__error">Input is not a number!</span>
+                                    </div>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_edu">
+                                        <label class="mdl-textfield__label" for="tf_edu">Education</label>
+                                        <span class="mdl-textfield__error">Input is not a number!</span>
+                                    </div>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_lck">
+                                        <label class="mdl-textfield__label" for="tf_lck">Luck</label>
+                                        <span class="mdl-textfield__error">Input is not a number!</span>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <!-- Actions -->
+                                <button onclick="saveAttributes()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit" name="action">
+                                    <i class="material-icons">save</i>Save & Next
+                                </button>
+                            </div>
+                        </div>
+                </div>
+            </section>
+            <section class="mdl-layout__tab-panel" id="scroll-tab-3">
+                <div class="page-content">
+                    <!-- Your content goes here -->
+                </div>
+            </section>
+            <section class="mdl-layout__tab-panel" id="scroll-tab-4">
+                <div class="page-content">
+                    <!-- Your content goes here -->
+                </div>
+            </section>
+        </main>
+        </div>
+
+        <script src="../../node_modules/material-design-lite/material.min.js"></script>
+        <script>
+            window.$ = window.jQuery = require('jquery');
+        </script>
+        <script src="js/script.js"></script>
+</body>
+
+</html>
