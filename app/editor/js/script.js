@@ -34,7 +34,16 @@ function saveAttributes() {
         c[attr + '_5'] = Math.ceil(parseInt(val) / 5);    
     }
 
+    deriveAttributes();
+
     ipcRenderer.send('open-viewer', c)
+}
+
+function deriveAttributes(){
+    c.sp = c.pow_b * 1;
+    c.mp = c.pow_5;
+    c.hp = Math.floor((parseInt(c.con_b) + parseInt(c.siz_b)) / 10);
+
 }
 
 function shuffleAttributes() {

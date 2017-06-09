@@ -28,11 +28,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="651.04153"
-     inkscape:cy="1041.0105"
+     inkscape:zoom="1"
+     inkscape:cx="526.40967"
+     inkscape:cy="892.95446"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer13"
+     inkscape:current-layer="layer9"
      showgrid="true"
      inkscape:snap-to-guides="false"
      inkscape:window-width="960"
@@ -2125,165 +2125,9 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer9"
-     inkscape:label="HP"
-     style="display:none"
-     sodipodi:insensitive="true">
-    <g
-       id="g5302"
-       transform="translate(-4.5175534,-9.7434864)">
-      <g
-         id="g5175"
-         style="display:inline"
-         transform="matrix(1.597526,0,0,1.597526,-260.63973,49.09837)">
-        <text
-           id="text683-8"
-           y="15.218749"
-           x="172.92912"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Moire;-inkscape-font-specification:Moire;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           xml:space="preserve"><tspan
-             style="font-size:7.76111078px;line-height:1;stroke-width:0.26458332"
-             y="15.218749"
-             x="172.92912"
-             id="tspan681-21"
-             sodipodi:role="line">HP</tspan></text>
-        <text
-           id="text720-1"
-           y="13.519248"
-           x="197.28181"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Moire;-inkscape-font-specification:Moire;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           xml:space="preserve"><tspan
-             style="font-size:2.11666656px;line-height:1;fill:#808080;stroke-width:0.26458332"
-             y="13.519248"
-             x="197.28181"
-             id="tspan718-02"
-             sodipodi:role="line">MAX</tspan></text>
-        <path
-           inkscape:connector-curvature="0"
-           id="path953-4"
-           d="m 187.85417,8.6041665 v 7.9374995 h 15.875 V 11.25 l -2.64583,-2.6458335 h -13.22917"
-           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path955-86"
-           d="M 195.79167,8.6041665 V 16.541666"
-           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      </g>
-    </g>
-    <g
-       transform="matrix(1.597526,0,0,1.597526,-194.26859,49.098371)"
-       style="display:inline"
-       id="g5175-7" />
-    <g
-       transform="translate(62.971537,-9.2604164)"
-       id="g5302-0">
-      <g
-         id="g5175-6"
-         style="display:inline"
-         transform="matrix(1.597526,0,0,1.597526,-260.63973,49.09837)">
-        <text
-           id="text683-8-2"
-           y="15.218749"
-           x="172.92912"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Moire;-inkscape-font-specification:Moire;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           xml:space="preserve"><tspan
-             style="font-size:7.76111078px;line-height:1;stroke-width:0.26458332"
-             y="15.218749"
-             x="172.92912"
-             id="tspan681-21-5"
-             sodipodi:role="line">MP</tspan></text>
-        <text
-           id="text720-1-0"
-           y="13.519248"
-           x="197.28181"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Moire;-inkscape-font-specification:Moire;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           xml:space="preserve"><tspan
-             style="font-size:2.11666656px;line-height:1;fill:#808080;stroke-width:0.26458332"
-             y="13.519248"
-             x="197.28181"
-             id="tspan718-02-0"
-             sodipodi:role="line">MAX</tspan></text>
-        <path
-           inkscape:connector-curvature="0"
-           id="path953-4-6"
-           d="m 187.85417,8.6041665 v 7.9374995 h 15.875 V 11.25 l -2.64583,-2.6458335 h -13.22917"
-           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path955-86-5"
-           d="M 195.79167,8.6041665 V 16.541666"
-           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      </g>
-    </g>
-    <g
-       transform="translate(130.64526,-9.2604164)"
-       id="g5302-4">
-      <g
-         id="g5175-1"
-         style="display:inline"
-         transform="matrix(1.597526,0,0,1.597526,-260.63973,49.09837)">
-        <text
-           id="text683-8-0"
-           y="15.218749"
-           x="172.92912"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Moire;-inkscape-font-specification:Moire;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           xml:space="preserve"><tspan
-             style="font-size:7.76111078px;line-height:1;stroke-width:0.26458332"
-             y="15.218749"
-             x="172.92912"
-             id="tspan681-21-0"
-             sodipodi:role="line">SP</tspan></text>
-        <text
-           id="text720-1-5"
-           y="13.519248"
-           x="197.28181"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Moire;-inkscape-font-specification:Moire;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           xml:space="preserve"><tspan
-             style="font-size:2.11666656px;line-height:1;fill:#808080;stroke-width:0.26458332"
-             y="13.519248"
-             x="197.28181"
-             id="tspan718-02-03"
-             sodipodi:role="line">MAX</tspan></text>
-        <path
-           inkscape:connector-curvature="0"
-           id="path953-4-4"
-           d="m 187.85417,8.6041665 v 7.9374995 h 15.875 V 11.25 l -2.64583,-2.6458335 h -13.22917"
-           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path955-86-6"
-           d="M 195.79167,8.6041665 V 16.541666"
-           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      </g>
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Moire;-inkscape-font-specification:Moire;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="177.27083"
-       y="220.27084"
-       id="text5362"><tspan
-         sodipodi:role="line"
-         id="tspan5360"
-         x="178.00395"
-         y="220.27084"
-         style="font-size:5.64444399px;line-height:1;stroke-width:0.26458332"> </tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
      id="layer12"
      inkscape:label="HP_New"
      sodipodi:insensitive="true">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Moire;-inkscape-font-specification:Moire;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="59.53125"
-       y="74.75"
-       id="text532"><tspan
-         sodipodi:role="line"
-         id="tspan530"
-         x="59.53125"
-         y="77.945488"
-         style="stroke-width:0.26458332px" /></text>
     <g
        id="g581">
       <g
@@ -2296,7 +2140,7 @@
            inkscape:connector-curvature="0" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Moire;-inkscape-font-specification:Moire;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Moire;-inkscape-font-specification:Moire;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="59.399475"
            y="76.03244"
            id="text536"><tspan
@@ -2304,7 +2148,7 @@
              id="tspan534"
              x="59.399475"
              y="76.03244"
-             style="fill:#808080;stroke-width:0.26458332px">MAX</tspan></text>
+             style="fill:#b3b3b3;stroke-width:0.26458332px">MAX</tspan></text>
       </g>
       <text
          id="text565"
@@ -2331,7 +2175,7 @@
            inkscape:connector-curvature="0" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Moire;-inkscape-font-specification:Moire;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Moire;-inkscape-font-specification:Moire;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="59.386032"
            y="76.03244"
            id="text536-5"><tspan
@@ -2339,7 +2183,7 @@
              id="tspan534-3"
              x="59.386032"
              y="76.03244"
-             style="fill:#808080;stroke-width:0.26458332px">MAX</tspan></text>
+             style="fill:#b3b3b3;stroke-width:0.26458332px">MAX</tspan></text>
       </g>
       <text
          id="text569"
@@ -2366,7 +2210,7 @@
            inkscape:connector-curvature="0" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Moire;-inkscape-font-specification:Moire;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Moire;-inkscape-font-specification:Moire;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="59.399471"
            y="76.03244"
            id="text536-9"><tspan
@@ -2374,7 +2218,7 @@
              id="tspan534-1"
              x="59.399471"
              y="76.03244"
-             style="fill:#808080;stroke-width:0.26458332px">MAX</tspan></text>
+             style="fill:#b3b3b3;stroke-width:0.26458332px">MAX</tspan></text>
       </g>
       <text
          id="text573"
@@ -2547,7 +2391,7 @@
          height="7.9375"
          x="6.6145835"
          y="218.94792"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#b3b3b3;stroke:none;stroke-width:0.26458332"
          id="rect2493-9-86-9"
@@ -2555,7 +2399,7 @@
          height="7.9375"
          x="6.6145821"
          y="234.82292"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#b3b3b3;stroke:none;stroke-width:0.26458332"
          id="rect2493-9-86-6"
@@ -2563,7 +2407,7 @@
          height="7.9375"
          x="6.6145821"
          y="250.69792"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#b3b3b3;stroke:none;stroke-width:0.26458332"
          id="rect2493-9-86-83"
@@ -2571,7 +2415,7 @@
          height="7.9375"
          x="6.6145821"
          y="266.57294"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#b3b3b3;stroke:none;stroke-width:0.26458332"
          id="rect2493-9-86-97"
@@ -2579,7 +2423,7 @@
          height="7.9375"
          x="6.6145821"
          y="282.44794"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="fill:#4d4d4d;stroke:none;stroke-width:0.26006049"
          id="rect5167"
@@ -2587,7 +2431,7 @@
          height="7.8018103"
          x="171.97917"
          y="250.76576"
-         ry="2.49966e-006" />
+         ry="2.49966e-06" />
     </g>
     <g
        inkscape:groupmode="layer"
@@ -2612,7 +2456,7 @@
          height="2.6458333"
          x="11.852649"
          y="229.53125"
-         ry="2.5431316e-006" />
+         ry="2.5431316e-06" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Moire;-inkscape-font-specification:Moire;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -2651,7 +2495,7 @@
          height="5.2916665"
          x="66.145828"
          y="244.08334"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-2"
@@ -2659,7 +2503,7 @@
          height="5.2916665"
          x="66.145828"
          y="236.14584"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-3"
@@ -2667,7 +2511,7 @@
          height="5.2916665"
          x="66.145828"
          y="252.02084"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-33"
@@ -2675,7 +2519,7 @@
          height="5.2916665"
          x="66.145828"
          y="259.95834"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-6"
@@ -2683,7 +2527,7 @@
          height="5.2916665"
          x="66.145828"
          y="267.89584"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-4"
@@ -2691,7 +2535,7 @@
          height="5.2916665"
          x="66.145828"
          y="275.83334"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-71"
@@ -2699,7 +2543,7 @@
          height="5.2916665"
          x="66.145828"
          y="283.77084"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-0"
@@ -2707,7 +2551,7 @@
          height="5.2916665"
          x="75.40625"
          y="236.14584"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-44"
@@ -2715,7 +2559,7 @@
          height="5.2916665"
          x="75.40625"
          y="244.08334"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-8"
@@ -2723,7 +2567,7 @@
          height="5.2916665"
          x="75.40625"
          y="252.02084"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-25"
@@ -2731,7 +2575,7 @@
          height="5.2916665"
          x="75.40625"
          y="259.95834"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-5"
@@ -2739,7 +2583,7 @@
          height="5.2916665"
          x="75.40625"
          y="267.89584"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-77"
@@ -2747,7 +2591,7 @@
          height="5.2916665"
          x="75.40625"
          y="275.83334"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-9"
@@ -2755,11 +2599,11 @@
          height="5.2916665"
          x="75.40625"
          y="283.77084"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <g
          id="g5165">
         <rect
-           ry="2.5431327e-006"
+           ry="2.5431327e-06"
            y="228.20834"
            x="66.145828"
            height="5.2916665"
@@ -2767,7 +2611,7 @@
            id="rect4746-7"
            style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332" />
         <rect
-           ry="2.5431327e-006"
+           ry="2.5431327e-06"
            y="228.20834"
            x="75.40625"
            height="5.2916665"
@@ -2775,7 +2619,7 @@
            id="rect4746-60"
            style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332" />
         <rect
-           ry="2.5431327e-006"
+           ry="2.5431327e-06"
            y="228.20834"
            x="84.666664"
            height="5.2916665"
@@ -2790,7 +2634,7 @@
          height="5.2916665"
          x="84.666664"
          y="236.14584"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-52"
@@ -2798,7 +2642,7 @@
          height="5.2916665"
          x="84.666664"
          y="244.08334"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-65"
@@ -2806,7 +2650,7 @@
          height="5.2916665"
          x="84.666664"
          y="252.02084"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-63"
@@ -2814,7 +2658,7 @@
          height="5.2916665"
          x="84.666664"
          y="259.95834"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-35"
@@ -2822,7 +2666,7 @@
          height="5.2916665"
          x="84.666664"
          y="267.89584"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-11"
@@ -2830,7 +2674,7 @@
          height="5.2916665"
          x="84.666664"
          y="275.83334"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect4746-48"
@@ -2838,7 +2682,7 @@
          height="5.2916665"
          x="84.666664"
          y="283.77084"
-         ry="2.5431327e-006" />
+         ry="2.5431327e-06" />
       <path
          style="display:inline;fill:none;stroke:#000000;stroke-width:0.21320729px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 99.21875,233.5 h 26.45833"
@@ -3017,7 +2861,7 @@
          height="2.6458333"
          x="11.852652"
          y="237.46875"
-         ry="2.5431316e-006" />
+         ry="2.5431316e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect803-36-27"
@@ -3025,7 +2869,7 @@
          height="2.6458333"
          x="11.852651"
          y="245.40625"
-         ry="2.5431316e-006" />
+         ry="2.5431316e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect803-36-68"
@@ -3033,7 +2877,7 @@
          height="2.6458333"
          x="11.852651"
          y="253.34375"
-         ry="2.5431316e-006" />
+         ry="2.5431316e-06" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Moire;-inkscape-font-specification:Moire;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -3052,7 +2896,7 @@
          height="2.6458333"
          x="11.852651"
          y="261.28128"
-         ry="2.5431316e-006" />
+         ry="2.5431316e-06" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Moire;-inkscape-font-specification:Moire;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -3071,7 +2915,7 @@
          height="2.6458333"
          x="11.852651"
          y="269.21878"
-         ry="2.5431316e-006" />
+         ry="2.5431316e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect803-36-84"
@@ -3079,7 +2923,7 @@
          height="2.6458333"
          x="11.852651"
          y="277.15628"
-         ry="2.5431316e-006" />
+         ry="2.5431316e-06" />
       <rect
          style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.26458332"
          id="rect803-36-7"
@@ -3087,19 +2931,8 @@
          height="2.6458333"
          x="11.852652"
          y="285.09378"
-         ry="2.5431316e-006" />
+         ry="2.5431316e-06" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Moire;-inkscape-font-specification:Moire;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="112.44791"
-       y="232.17709"
-       id="text5120"><tspan
-         sodipodi:role="line"
-         id="tspan5118"
-         x="112.81447"
-         y="232.17709"
-         style="font-size:2.82222199px;line-height:1;stroke-width:0.26458332"> </tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Moire;-inkscape-font-specification:Moire;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -3299,7 +3132,8 @@
      inkscape:groupmode="layer"
      id="layer13"
      inkscape:label="Content_Attributes"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:125%;font-family:Moire;-inkscape-font-specification:Moire;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -3672,6 +3506,47 @@
          x="195.79167"
          y="47.673054"
          style="stroke-width:0.26458332px" /></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="Content_Points">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Moire;-inkscape-font-specification:Moire;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="59.546318"
+       y="63.373863"
+       id="ct_hp"
+       inkscape:label="ct_hp"><tspan
+         sodipodi:role="line"
+         id="tspan5149"
+         x="59.546318"
+         y="69.764839"
+         style="font-size:8.81944466px;stroke-width:0.26458332px" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Moire;-inkscape-font-specification:Moire;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="125.69215"
+       y="63.373863"
+       id="ct_mp"
+       inkscape:label="ct_mp"><tspan
+         sodipodi:role="line"
+         id="tspan5149-8"
+         x="125.69215"
+         y="69.764839"
+         style="font-size:8.81944466px;stroke-width:0.26458332px" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Moire;-inkscape-font-specification:Moire;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="189.19215"
+       y="63.373863"
+       id="ct_sp"
+       inkscape:label="ct_sp"><tspan
+         sodipodi:role="line"
+         id="tspan5149-4"
+         x="189.19215"
+         y="69.764839"
+         style="font-size:8.81944466px;stroke-width:0.26458332px" /></text>
   </g>
   <g
      inkscape:label="Bg"
