@@ -21,9 +21,9 @@
                 <a id="tab_overview" href="#scroll-tab-1" class="mdl-layout__tab is-active">Overview</a>
                 <a id="tab_attributes" href="#scroll-tab-2" class="mdl-layout__tab">Attributes</a>
                 <a id="tab_skills1" href="#scroll-tab-3" class="mdl-layout__tab">Skills 1</a>
-                <a id="tab_skills2" href="#scroll-tab-3" class="mdl-layout__tab">Skills 2</a>
-                <a id="tab_skills3" href="#scroll-tab-3" class="mdl-layout__tab">Skills 3</a>
-                <a id="tab_combat" href="#scroll-tab-4" class="mdl-layout__tab">Combat</a>
+                <a id="tab_skills2" href="#scroll-tab-4" class="mdl-layout__tab">Skills 2</a>
+                <a id="tab_skills3" href="#scroll-tab-5" class="mdl-layout__tab">Skills 3</a>
+                <a id="tab_combat" href="#scroll-tab-6" class="mdl-layout__tab">Combat</a>
             </div>
         </header>
         <main class="mdl-layout__content">
@@ -88,61 +88,7 @@
                                 </div>
                             </div>
                             <div class="mdl-card--border mdl-card__supporting-text">
-                                <form>
-                                    <!-- STR -->
-                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_str">
-                                        <label class="mdl-textfield__label" for="tf_str">Strength</label>
-                                        <span class="mdl-textfield__error">Input is not a number!</span>
-                                    </div>
-                                    <!-- CON -->
-                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_con">
-                                        <label class="mdl-textfield__label" for="tf_con">Constitution</label>
-                                        <span class="mdl-textfield__error">Input is not a number!</span>
-                                    </div>
-                                    <!-- SIZ -->
-                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_siz">
-                                        <label class="mdl-textfield__label" for="tf_siz">Size</label>
-                                        <span class="mdl-textfield__error">Input is not a number!</span>
-                                    </div>
-                                    <!-- DEX -->
-                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_dex">
-                                        <label class="mdl-textfield__label" for="tf_dex">Dexterity</label>
-                                        <span class="mdl-textfield__error">Input is not a number!</span>
-                                    </div>
-                                    <!-- APP -->
-                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_app">
-                                        <label class="mdl-textfield__label" for="tf_app">Appearance</label>
-                                        <span class="mdl-textfield__error">Input is not a number!</span>
-                                    </div>
-                                    <!-- INT -->
-                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_int">
-                                        <label class="mdl-textfield__label" for="tf_int">Intelligence</label>
-                                        <span class="mdl-textfield__error">Input is not a number!</span>
-                                    </div>
-                                    <!-- POW -->
-                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_pow">
-                                        <label class="mdl-textfield__label" for="tf_pow">Power</label>
-                                        <span class="mdl-textfield__error">Input is not a number!</span>
-                                    </div>
-                                    <!-- EDU -->
-                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_edu">
-                                        <label class="mdl-textfield__label" for="tf_edu">Education</label>
-                                        <span class="mdl-textfield__error">Input is not a number!</span>
-                                    </div>
-                                    <!-- LCK -->
-                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_lck">
-                                        <label class="mdl-textfield__label" for="tf_lck">Luck</label>
-                                        <span class="mdl-textfield__error">Input is not a number!</span>
-                                    </div>
+                                <form id="form_attr">
                                 </form>
                             </div>
                             <div class="mdl-card__actions mdl-card--border">
@@ -163,10 +109,11 @@
                         <div class="mdl-card mdl-cell--6-col mdl-shadow--4dp">
                             <div class="mdl-card__title">
                                 <div class="mdl-card__title-text">
-                                    <h3>Non-Combat Skills</h3>
+                                    <h3>Non-Combat Skills 1</h3>
                                 </div>
                             </div>
                             <div class="mdl-card--border mdl-card__supporting-text">
+                                <!-- Skill 1 Form -->
                                 <form id='form_sk1'>
                                 </form>
                             </div>
@@ -180,9 +127,62 @@
                         </div>
                     </div>
             </section>
-            </div>
-            </section>
+            <!-- Tab 4-->
             <section class="mdl-layout__tab-panel" id="scroll-tab-4">
+                <div class="page-content">
+                    <!-- Card -->
+                    <div class="mdl-grid cthulhu-padding">
+                        <div class="mdl-card mdl-cell--6-col mdl-shadow--4dp">
+                            <div class="mdl-card__title">
+                                <div class="mdl-card__title-text">
+                                    <h3>Non-Combat Skills 2</h3>
+                                </div>
+                            </div>
+                            <div class="mdl-card--border mdl-card__supporting-text">
+                                <!-- Skill 2 Form -->
+                                <form id='form_sk2'>
+                                </form>
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <!-- Actions -->
+                                <button onclick="saveOverview()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+                                    type="submit" name="saveOverview">
+                                    <i class="material-icons">save</i>Save & Next
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <!-- Tab 5-->
+            <section class="mdl-layout__tab-panel" id="scroll-tab-5">
+                <div class="page-content">
+                    <!-- Card -->
+                    <div class="mdl-grid cthulhu-padding">
+                        <div class="mdl-card mdl-cell--6-col mdl-shadow--4dp">
+                            <div class="mdl-card__title">
+                                <div class="mdl-card__title-text">
+                                    <h3>Non-Combat Skills 3</h3>
+                                </div>
+                            </div>
+                            <div class="mdl-card--border mdl-card__supporting-text">
+                                <!-- Skill 3 Form -->
+                                <form id='form_sk3'>
+                                </form>
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <!-- Actions -->
+                                <button onclick="saveOverview()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+                                    type="submit" name="saveOverview">
+                                    <i class="material-icons">save</i>Save & Next
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <!-- Tab 6 -->
+            <section class="mdl-layout__tab-panel" id="scroll-tab-6">
                 <div class="page-content">
                     <!-- Your content goes here -->
                 </div>

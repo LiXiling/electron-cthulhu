@@ -1,6 +1,4 @@
 let character = {};
-var attributes_1 = ['str', 'con', 'siz', 'dex', 'int', 'app', 'pow', 'edu', 'lck'],
-    attributes_2 = ['siz', 'int', 'edu'];
 
 function deriveAttributes(c) {
     c.sp = c.pow_b * 1;
