@@ -26,6 +26,9 @@ function saveAttributes() {
     for (var i = 0; i < allAttributes.length; i++){
         var attr = allAttributes[i];
         var val = $('#tf_' + attr)[0].value;
+
+        if (val == '') continue;
+
         c[attr + '_b'] = val;
         c[attr + '_2'] = Math.ceil(parseInt(val) / 2);
         c[attr + '_5'] = Math.ceil(parseInt(val) / 5);    
