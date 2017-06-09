@@ -11,16 +11,12 @@ function saveAttributes() {
         var attr = allAttributes[i];
         var val = $('#tf_' + attr)[0].value;
 
-        if (val == '') continue;
-
-        character[attr + '_b'] = val;
-        character[attr + '_2'] = Math.ceil(parseInt(val) / 2);
-        character[attr + '_5'] = Math.ceil(parseInt(val) / 5);
+        saveProficiency(attr, val);
     }
 
     deriveAttributes(character);
 
-    ipcRenderer.send('open-viewer', character);
+    document.getElementById("tab_skills1").click();
 }
 
 function shuffleAttributes() {

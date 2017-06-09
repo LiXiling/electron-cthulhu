@@ -57,16 +57,38 @@ function addFormInput(page, id, label) {
     )
 }
 
+function saveSkills(page) {
+    var indices = threshholds[page-1];
+
+    for (var i = indices[0]; i < indices[1]; i++) {
+        var key = "sk" + i;
+        var val = $('#tf_' + key)[0].value;
+
+        saveProficiency(key, val);
+    }
+
+    var nextPage = parseInt(page) + 1;
+    if (nextPage == 4)
+        ipcRenderer.send('open-viewer', character);
+    else
+        document.getElementById("tab_skills" + nextPage).click();
+}
+
 var index = 1;
+var tmp = index;
+var threshholds = [];
 
 buildSkillForm(1, skills1);
-var threshHold1 = index;
+threshholds.push([tmp, index])
 
+tmp = index
 buildSkillForm(2, skills2);
-var threshHold2 = index;
+threshholds.push([tmp, index])
 
+tmp = index;
 buildSkillForm(3, skills3);
-var threshHold3 = index;
+threshholds.push([tmp, index])
+
 addFinanceForm();
 
 componentHandler.upgradeDom();
