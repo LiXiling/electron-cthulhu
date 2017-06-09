@@ -15,6 +15,10 @@ function saveAttributes() {
     }
 
     deriveAttributes(character);
+}
+
+function attr_saveNext(){
+    saveAttributes();
 
     document.getElementById("tab_skills1").click();
 }
@@ -29,6 +33,8 @@ function shuffleAttributes() {
         var att = attributes_2[i];
         $('#tf_' + att)[0].parentElement.MaterialTextfield.change(dice(2, 6, 6) * 5);
     }
+
+    saveAttributes();
 }
 
 function buildAttributionForm() {
