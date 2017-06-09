@@ -47,6 +47,5 @@ ipcMain.on('open-viewer', (event, arg) => {
 })
 
 ipcMain.on('get-c-data', (event, arg) =>{
-  console.log(arg);
   event.returnValue = c;
 })
