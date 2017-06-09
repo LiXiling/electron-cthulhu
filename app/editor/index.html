@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../../node_modules/material-design-lite/material.min.css">
+    <!--<link rel="stylesheet" href="../../node_modules/material-design-lite/material.min.css">-->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-light_green.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="styles.css">
     <title>Electron-Cthulhu Generator</title>
@@ -209,7 +210,7 @@
                             </div>
                             <div class="mdl-card--border mdl-card__supporting-text">
                                 <!-- Combat Table -->
-                                <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                                <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp" id="tb_combat">
                                     <thead>
                                         <tr>
                                             <th class="mdl-data-table__cell--non-numeric">Skill</th>
@@ -224,75 +225,75 @@
                                     <tbody>
                                         <tr>
                                             <td class="mdl-data-table__cell--non-numeric">Ausweichen (half DEX)</td>
-                                            <td>25</td>
-                                            <td class="mdl-data-table__cell--non-numeric">X</td>
-                                            <td class="mdl-data-table__cell--non-numeric">X</td>
-                                            <td>X</td>
-                                            <td>X</td>
-                                            <td>X</td>
+                                            <td contenteditable="true" class="cthulhu-editible"></td>
+                                            <td class="mdl-data-table__cell--non-numeric"></td>
+                                            <td class="mdl-data-table__cell--non-numeric"></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td class="mdl-data-table__cell--non-numeric">Nahkampf (Handgemenge) (25%)</td>
-                                            <td>50</td>
+                                            <td contenteditable="true" class="cthulhu-editible"></td>
                                             <td class="mdl-data-table__cell--non-numeric">Waffenlos</td>
                                             <td class="mdl-data-table__cell--non-numeric">1D3 + db</td>
                                             <td>1</td>
-                                            <td>X</td>
-                                            <td>X</td>
+                                            <td></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
-                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
-                                            <td contenteditable='true'></td>
-                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
-                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
-                                            <td contenteditable='true'></td>
-                                            <td>X</td>
-                                            <td>X</td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric cthulhu-editible"></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric cthulhu-editible"></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric cthulhu-editible"></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
+                                            <td></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
-                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
-                                            <td contenteditable='true'></td>
-                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
-                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
-                                            <td contenteditable='true'></td>
-                                            <td>X</td>
-                                            <td>X</td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric cthulhu-editible"></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric cthulhu-editible"></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric cthulhu-editible"></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
+                                            <td></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td class="mdl-data-table__cell--non-numeric">Fernkampf (Kurzwaffe) (20%)</td>
-                                            <td contenteditable='true'></td>
-                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
-                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
-                                            <td contenteditable='true'></td>
-                                            <td contenteditable='true'></td>
-                                            <td contenteditable='true'></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric cthulhu-editible"></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric cthulhu-editible"></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
                                         </tr>
                                         <tr>
                                             <td class="mdl-data-table__cell--non-numeric">Fernkampf (Langwaffe) (25%)</td>
-                                            <td contenteditable='true'></td>
-                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
-                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
-                                            <td contenteditable='true'></td>
-                                            <td contenteditable='true'></td>
-                                            <td contenteditable='true'></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric cthulhu-editible"></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric cthulhu-editible"></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
                                         </tr>
                                         <tr>
-                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
-                                            <td contenteditable='true'></td>
-                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
-                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
-                                            <td contenteditable='true'></td>
-                                            <td contenteditable='true'></td>
-                                            <td contenteditable='true'></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric cthulhu-editible"></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric cthulhu-editible"></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric cthulhu-editible"></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
                                         </tr>
                                         <tr>
-                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
-                                            <td contenteditable='true'></td>
-                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
-                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
-                                            <td contenteditable='true'></td>
-                                            <td contenteditable='true'></td>
-                                            <td contenteditable='true'></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric cthulhu-editible"></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric cthulhu-editible"></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric cthulhu-editible"></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
+                                            <td contenteditable='true' class="cthulhu-editible"></td>
                                         </tr>
                                     </tbody>
                                 </table>
