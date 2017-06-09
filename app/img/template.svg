@@ -36,9 +36,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4"
-     inkscape:cx="690.18285"
-     inkscape:cy="269.5471"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="256.72531"
+     inkscape:cy="264.0205"
      inkscape:document-units="mm"
      inkscape:current-layer="layer15"
      showgrid="true"
@@ -4745,7 +4745,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer15"
-     inkscape:label="Content_SB">
+     inkscape:label="Content_SB"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Moire;-inkscape-font-specification:Moire;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -4756,8 +4757,8 @@
          sodipodi:role="line"
          id="tspan4484-7"
          x="187.19098"
-         y="246.62408"
-         style="stroke-width:0.26458332px">+1D20</tspan></text>
+         y="253.01506"
+         style="stroke-width:0.26458332px" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Moire;-inkscape-font-specification:Moire;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -4768,8 +4769,8 @@
          sodipodi:role="line"
          id="tspan4484-7-6"
          x="187.19098"
-         y="228.10326"
-         style="stroke-width:0.26458332px">+1D20</tspan></text>
+         y="234.49423"
+         style="stroke-width:0.26458332px" /></text>
   </g>
   <g
      inkscape:label="Bg"
