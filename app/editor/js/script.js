@@ -1,49 +1,37 @@
 const { ipcRenderer } = require('electron')
 
-var c = {};
-
 function saveOverview() {
     var name = $('#tf_name')[0].value,
         job = $('#tf_job')[0].value,
         age = $('#tf_age')[0].value,
         origin = $('#tf_origin')[0].value;
 
-    c.name = name;
-    c.job = job;
-    c.age = age;
-    c.origin = origin;
-    console.log(c);
+    character.name = name;
+    character.job = job;
+    character.age = age;
+    character.origin = origin;
+    console.log(character);
 
-    document.getElementById("tab_attributes").click()
+    document.getElementById("tab_attributes").click();
 }
-
-var attributes_1 = ['str', 'con', 'siz', 'dex', 'int', 'app', 'pow', 'edu', 'lck'],
-    attributes_2 = ['siz', 'int', 'edu'];
 
 function saveAttributes() {
     var allAttributes = attributes_1.concat(attributes_2);
 
-    for (var i = 0; i < allAttributes.length; i++){
+    for (var i = 0; i < allAttributes.length; i++) {
         var attr = allAttributes[i];
         var val = $('#tf_' + attr)[0].value;
 
         if (val == '') continue;
 
-        c[attr + '_b'] = val;
-        c[attr + '_2'] = Math.ceil(parseInt(val) / 2);
-        c[attr + '_5'] = Math.ceil(parseInt(val) / 5);    
+        character[attr + '_b'] = val;
+        character[attr + '_2'] = Math.ceil(parseInt(val) / 2);
+        character[attr + '_5'] = Math.ceil(parseInt(val) / 5);
     }
 
-    deriveAttributes();
+    deriveAttributes(character);
 
-    ipcRenderer.send('open-viewer', c)
-}
-
-function deriveAttributes(){
-    c.sp = c.pow_b * 1;
-    c.mp = c.pow_5;
-    c.hp = Math.floor((parseInt(c.con_b) + parseInt(c.siz_b)) / 10);
-
+    ipcRenderer.send('open-viewer', character);
 }
 
 function shuffleAttributes() {
@@ -56,14 +44,4 @@ function shuffleAttributes() {
         var att = attributes_2[i];
         $('#tf_' + att)[0].parentElement.MaterialTextfield.change(dice(2, 6, 6) * 5);
     }
-}
-
-function dice(n, d, c = 0) {
-    var sum = c;
-
-    for (var i = 0; i < n; i++) {
-        sum += Math.floor((Math.random() * d) + 1);
-    }
-
-    return sum;
 }
