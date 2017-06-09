@@ -13,3 +13,7 @@ function saveOverview() {
 
     document.getElementById("tab_attributes").click();
 }
+
+function viewSheet(){
+    ipcRenderer.send('open-viewer', character);
+}

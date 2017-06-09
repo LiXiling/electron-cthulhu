@@ -58,7 +58,7 @@ function addFormInput(page, id, label) {
 }
 
 function saveSkills(page) {
-    var indices = threshholds[page-1];
+    var indices = threshholds[page - 1];
 
     for (var i = indices[0]; i < indices[1]; i++) {
         var key = "sk" + i;
@@ -68,10 +68,10 @@ function saveSkills(page) {
     }
 
     var nextPage = parseInt(page) + 1;
-    if (nextPage == 4)
-        ipcRenderer.send('open-viewer', character);
-    else
+    if (nextPage != 4)
         document.getElementById("tab_skills" + nextPage).click();
+    else
+        document.getElementById("tab_combat").click();
 }
 
 var index = 1;

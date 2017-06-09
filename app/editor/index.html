@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="styles.css">
     <title>Electron-Cthulhu Generator</title>
+
+    <style>
+        #view-sheet {
+            position: fixed;
+            display: block;
+            right: 0;
+            bottom: 0;
+            margin-right: 40px;
+            margin-bottom: 40px;
+            z-index: 900;
+        }
+    </style>
 </head>
 
 <body>
@@ -73,6 +85,7 @@
                         </div>
                     </div>
             </section>
+
             <!-- Tab 2 -->
             <section class="mdl-layout__tab-panel" id="scroll-tab-2">
                 <div class="page-content">
@@ -101,6 +114,7 @@
                         </div>
                     </div>
             </section>
+
             <!-- Tab 3-->
             <section class="mdl-layout__tab-panel" id="scroll-tab-3">
                 <div class="page-content">
@@ -127,6 +141,7 @@
                         </div>
                     </div>
             </section>
+
             <!-- Tab 4-->
             <section class="mdl-layout__tab-panel" id="scroll-tab-4">
                 <div class="page-content">
@@ -184,11 +199,121 @@
             <!-- Tab 6 -->
             <section class="mdl-layout__tab-panel" id="scroll-tab-6">
                 <div class="page-content">
-                    <!-- Your content goes here -->
-                </div>
+                    <!-- Card -->
+                    <div class="mdl-grid cthulhu-padding">
+                        <div class="mdl-card mdl-cell--8-col mdl-shadow--4dp">
+                            <div class="mdl-card__title">
+                                <div class="mdl-card__title-text">
+                                    <h3>Combat Skills</h3>
+                                </div>
+                            </div>
+                            <div class="mdl-card--border mdl-card__supporting-text">
+                                <!-- Combat Table -->
+                                <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                                    <thead>
+                                        <tr>
+                                            <th class="mdl-data-table__cell--non-numeric">Skill</th>
+                                            <th>Proficiency</th>
+                                            <th class="mdl-data-table__cell--non-numeric">Weapon</th>
+                                            <th class="mdl-data-table__cell--non-numeric">Damage</th>
+                                            <th>Num of Attacks</th>
+                                            <th>Num of Shots</th>
+                                            <th>Malfunction</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="mdl-data-table__cell--non-numeric">Ausweichen (half DEX)</td>
+                                            <td>25</td>
+                                            <td class="mdl-data-table__cell--non-numeric">X</td>
+                                            <td class="mdl-data-table__cell--non-numeric">X</td>
+                                            <td>X</td>
+                                            <td>X</td>
+                                            <td>X</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="mdl-data-table__cell--non-numeric">Nahkampf (Handgemenge) (25%)</td>
+                                            <td>50</td>
+                                            <td class="mdl-data-table__cell--non-numeric">Waffenlos</td>
+                                            <td class="mdl-data-table__cell--non-numeric">1D3 + db</td>
+                                            <td>1</td>
+                                            <td>X</td>
+                                            <td>X</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
+                                            <td contenteditable='true'></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
+                                            <td contenteditable='true'></td>
+                                            <td>X</td>
+                                            <td>X</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
+                                            <td contenteditable='true'></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
+                                            <td contenteditable='true'></td>
+                                            <td>X</td>
+                                            <td>X</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="mdl-data-table__cell--non-numeric">Fernkampf (Kurzwaffe) (20%)</td>
+                                            <td contenteditable='true'></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
+                                            <td contenteditable='true'></td>
+                                            <td contenteditable='true'></td>
+                                            <td contenteditable='true'></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="mdl-data-table__cell--non-numeric">Fernkampf (Langwaffe) (25%)</td>
+                                            <td contenteditable='true'></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
+                                            <td contenteditable='true'></td>
+                                            <td contenteditable='true'></td>
+                                            <td contenteditable='true'></td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
+                                            <td contenteditable='true'></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
+                                            <td contenteditable='true'></td>
+                                            <td contenteditable='true'></td>
+                                            <td contenteditable='true'></td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
+                                            <td contenteditable='true'></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
+                                            <td contenteditable='true' class="mdl-data-table__cell--non-numeric"></td>
+                                            <td contenteditable='true'></td>
+                                            <td contenteditable='true'></td>
+                                            <td contenteditable='true'></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <!-- Actions -->
+                                <button onclick="saveSkills(2)" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+                                    type="submit" name="saveSkills3">
+                                    <i class="material-icons">save</i>Save & Next
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            </div>
             </section>
         </main>
         </div>
+        <button onclick="viewSheet()" id="view-sheet" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+            View Sheet
+        </button>
 
         <script src="../../node_modules/material-design-lite/material.min.js"></script>
         <script>
