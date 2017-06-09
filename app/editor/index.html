@@ -17,10 +17,12 @@
                 <span class="mdl-layout-title">Cthulhu Generator</span>
             </div>
             <!-- Tabs -->
-            <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-layout--fixed-tabs">
                 <a id="tab_overview" href="#scroll-tab-1" class="mdl-layout__tab is-active">Overview</a>
                 <a id="tab_attributes" href="#scroll-tab-2" class="mdl-layout__tab">Attributes</a>
-                <a id="tab_skills" href="#scroll-tab-3" class="mdl-layout__tab">Skills</a>
+                <a id="tab_skills1" href="#scroll-tab-3" class="mdl-layout__tab">Skills 1</a>
+                <a id="tab_skills2" href="#scroll-tab-3" class="mdl-layout__tab">Skills 2</a>
+                <a id="tab_skills3" href="#scroll-tab-3" class="mdl-layout__tab">Skills 3</a>
                 <a id="tab_combat" href="#scroll-tab-4" class="mdl-layout__tab">Combat</a>
             </div>
         </header>
@@ -33,7 +35,7 @@
                         <div class="mdl-card mdl-cell--6-col mdl-shadow--4dp">
                             <div class="mdl-card__title">
                                 <div class="mdl-card__title-text">
-                                    <h4>General Information</h2>
+                                    <h3>General Information</h3>
                                 </div>
                             </div>
                             <div class="mdl-card--border mdl-card__supporting-text">
@@ -82,7 +84,7 @@
                             </button>
                             <div class="mdl-card__title">
                                 <div class="mdl-card__title-text">
-                                    <h4>Physical & Mental Attributes</h2>
+                                    <h3>Physical & Mental Attributes</h3>
                                 </div>
                             </div>
                             <div class="mdl-card--border mdl-card__supporting-text">
@@ -153,10 +155,32 @@
                         </div>
                     </div>
             </section>
+            <!-- Tab 3-->
             <section class="mdl-layout__tab-panel" id="scroll-tab-3">
                 <div class="page-content">
-                    <!-- Your content goes here -->
-                </div>
+                    <!-- Card -->
+                    <div class="mdl-grid cthulhu-padding">
+                        <div class="mdl-card mdl-cell--6-col mdl-shadow--4dp">
+                            <div class="mdl-card__title">
+                                <div class="mdl-card__title-text">
+                                    <h3>Non-Combat Skills</h3>
+                                </div>
+                            </div>
+                            <div class="mdl-card--border mdl-card__supporting-text">
+                                <form id='form_sk1'>
+                                </form>
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <!-- Actions -->
+                                <button onclick="saveOverview()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+                                    type="submit" name="saveOverview">
+                                    <i class="material-icons">save</i>Save & Next
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            </div>
             </section>
             <section class="mdl-layout__tab-panel" id="scroll-tab-4">
                 <div class="page-content">
@@ -170,6 +194,7 @@
         <script>
             window.$ = window.jQuery = require('jquery');
         </script>
+        <script src="js/skill.js"></script>
         <script src="js/character.js"></script>
         <script src="js/overview-view.js"></script>
         <script src="js/attribute-view.js"></script>

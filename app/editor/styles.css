@@ -11,6 +11,13 @@ body::before {
     position: fixed;
 }
 
+.mdl-textfield__label {
+    color: black;
+}
+.mdl-textfield__input {
+    color: black;
+}
+
 .cthulhu-padding{
     padding-left: 5%;
 }
