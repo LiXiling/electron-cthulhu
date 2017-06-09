@@ -36,11 +36,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="383.60656"
-     inkscape:cy="267.56295"
+     inkscape:zoom="4"
+     inkscape:cx="690.18285"
+     inkscape:cy="269.5471"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer14"
+     inkscape:current-layer="layer15"
      showgrid="true"
      inkscape:snap-to-guides="false"
      inkscape:window-width="960"
@@ -3560,7 +3560,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer14"
-     inkscape:label="Content_Skills">
+     inkscape:label="Content_Skills"
+     sodipodi:insensitive="true">
     <g
        id="g4365"
        inkscape:label="g_sk1">
@@ -4740,6 +4741,35 @@
            id="tspan4279-4-10"
            sodipodi:role="line" /></text>
     </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer15"
+     inkscape:label="Content_SB">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Moire;-inkscape-font-specification:Moire;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="187.19098"
+       y="246.62408"
+       id="ct_build"
+       inkscape:label="ct_build"><tspan
+         sodipodi:role="line"
+         id="tspan4484-7"
+         x="187.19098"
+         y="246.62408"
+         style="stroke-width:0.26458332px">+1D20</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Moire;-inkscape-font-specification:Moire;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="187.19098"
+       y="228.10326"
+       id="ct_db"
+       inkscape:label="ct_db"><tspan
+         sodipodi:role="line"
+         id="tspan4484-7-6"
+         x="187.19098"
+         y="228.10326"
+         style="stroke-width:0.26458332px">+1D20</tspan></text>
   </g>
   <g
      inkscape:label="Bg"
