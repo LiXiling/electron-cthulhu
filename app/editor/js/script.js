@@ -17,7 +17,7 @@ function saveOverview() {
     document.getElementById("tab_attributes").click()
 }
 
-var attributes_1 = ['str', 'con', 'siz', 'dex', 'int', 'app', 'pow', 'edu'],
+var attributes_1 = ['str', 'con', 'siz', 'dex', 'int', 'app', 'pow', 'edu', 'lck'],
     attributes_2 = ['siz', 'int', 'edu'];
 
 function saveAttributes() {
@@ -30,8 +30,6 @@ function saveAttributes() {
         c[attr + '_2'] = Math.ceil(parseInt(val) / 2);
         c[attr + '_5'] = Math.ceil(parseInt(val) / 5);    
     }
-
-    c.lck = $('#tf_lck')[0].value;
 
     ipcRenderer.send('open-viewer', c)
 }
@@ -46,8 +44,6 @@ function shuffleAttributes() {
         var att = attributes_2[i];
         $('#tf_' + att)[0].parentElement.MaterialTextfield.change(dice(2, 6, 6) * 5);
     }
-
-    $('#tf_lck')[0].parentElement.MaterialTextfield.change(dice(3, 6) * 5);
 }
 
 function dice(n, d, c = 0) {
