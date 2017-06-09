@@ -8,7 +8,7 @@ var c = ipcRenderer.sendSync('get-c-data', 'ping')
 read();
 
 function read() {
-    fs.readFile('app/img/CharSheet_Group_Form.svg', 'utf8', function (err, data) {
+    fs.readFile('app/img/template.svg', 'utf8', function (err, data) {
         if (err) throw err;
 
         var keys = Object.keys(c);
