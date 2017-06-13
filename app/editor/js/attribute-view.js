@@ -1,7 +1,7 @@
 var attributes_1 = ['str', 'con', 'siz', 'dex', 'int', 'app', 'pow', 'edu', 'lck'],
     attributes_2 = ['siz', 'int', 'edu'],
     att_names = [
-        'Strength', 'Constiution', 'Size', 'Dexterity', 'Intelligence', 'Appearance', 'Power', 'Education', 'Luck'
+        'Strength', 'Constitution', 'Size', 'Dexterity', 'Intelligence', 'Appearance', 'Power', 'Education', 'Luck'
     ];
 
 function saveAttributes() {

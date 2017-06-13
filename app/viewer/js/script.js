@@ -33,7 +33,7 @@ function writeSvgFile() {
     var source = serializer.serializeToString(svgEdit);
     source = '<?xml version="1.0" standalone="no"?>\r\n' + source;
 
-    fs.writeFile("app/test.svg", source, function (err) {
+    fs.writeFile("out.svg", source, function (err) {
         if (err) throw err;
     });
 }
