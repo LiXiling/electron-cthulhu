@@ -11,7 +11,10 @@ function saveCombat() {
             var txt = c[j].textContent;
 
             if (txt != '')
-                character["cb_" + i + "_" + j] = txt
+                if (j == 1)
+                    saveProficiency("cb_" + i + "_1", txt);
+                else
+                    character["cb_" + i + "_" + j] = txt;
         }
     }
 
