@@ -46,6 +46,11 @@ ipcMain.on('open-viewer', (event, arg) => {
   setWindowContent(event.sender, 'viewer');
 })
 
+ipcMain.on('open-editor', (event, arg) => {
+  c = arg;
+  setWindowContent(event.sender, 'editor');
+})
+
 ipcMain.on('get-c-data', (event, arg) =>{
   event.returnValue = c;
 })

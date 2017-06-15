@@ -2,12 +2,42 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Electron-Cthulhu Viewer</title>
+    <link rel="stylesheet" href="../material.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        #edit-sheet {
+            position: fixed;
+            display: block;
+            right: 0;
+            bottom: 0;
+            margin-right: 40px;
+            margin-bottom: 40px;
+            z-index: 900;
+        }
+    </style>
 </head>
 
 <body>
-    <script>window.$ = window.jQuery = require('jquery');</script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">Cthulhu Viewer</span>
+            </div>
+        </header>
+        <div id="svgView">
+        </div>
+    </div>
+
+    <button onclick="editSheet()" id="edit-sheet" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+            Edit Sheet
+    </button>
+    <script src="../../node_modules/material-design-lite/material.min.js"></script>
+    <script>
+        window.$ = window.jQuery = require('jquery');
+    </script>
     <script src="js/script.js"></script>
 </body>
 

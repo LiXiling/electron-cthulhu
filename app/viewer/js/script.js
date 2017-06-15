@@ -14,7 +14,7 @@ function readSvg() {
         var keys = Object.keys(c);
 
         svg = data;
-        $('body').append(svg);
+        $('#svgView').append(svg);
 
         changeCharFields();
         writeSvgFile();
@@ -36,4 +36,8 @@ function writeSvgFile() {
     fs.writeFile("out.svg", source, function (err) {
         if (err) throw err;
     });
+}
+
+function editSheet() {
+    ipcRenderer.send('open-editor', c);
 }
